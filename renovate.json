@@ -3,7 +3,12 @@
   "extends": [
     "config:base", ":switchToGradleLite"
   ],
-  "registryUrls": [
-    "https://juggernaut0.github.io/m2/repository"
+  "packageRules": [
+    {
+      "matchManagers": ["gradle-lite"],
+      "registryUrls": [
+        "https://juggernaut0.github.io/m2/repository"
+      ]
+    }
   ]
 }
