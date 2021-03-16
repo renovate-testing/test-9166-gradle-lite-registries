@@ -1,17 +1,16 @@
 plugins {
     `java-library`
-    kotlin("jvm") version "1.4.20"
+    kotlin("jvm") version "1.4.31"
 }
 
 group = "com.sofi"
 
 repositories {
     mavenCentral()
+    maven("https://juggernaut0.github.io/m2/repository")
 }
 
 dependencies {
-    val jwtVersion: String by project
-
-    api("io.jsonwebtoken", "jjwt-api", jwtVersion)
-    api("com.fasterxml.jackson.core", "jackson-databind", "2.10.5")
+    val multiplatformUtilsVersion = "0.4.0"
+    api("com.github.juggernaut0:multiplatform-utils-jvm:$multiplatformUtilsVersion")
 }
