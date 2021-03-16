@@ -11,7 +11,6 @@ repositories {
 }
 
 dependencies {
-    val multiplatformUtilsVersion = "0.4.0"
-    api("com.github.juggernaut0:multiplatform-utils-jvm:$multiplatformUtilsVersion")
-    api("io.github.openfeign:feign-core:9.4.0")
+    api("com.github.juggernaut0:multiplatform-utils-jvm:0.4.0")
+    api("com.fasterxml.jackson.core:jackson-databind:2.10.5")
 }

@@ -3,13 +3,5 @@
   "extends": [
     "config:base", ":switchToGradleLite"
   ],
-  "packageRules": [
-    {
-      "matchManagers": ["gradle-lite"],
-      "registryUrls": [
-        "https://repo.maven.apache.org/maven2",
-        "https://juggernaut0.github.io/m2/repository"
-      ]
-    }
-  ]
+  "prHourlyLimit": 0
 }
