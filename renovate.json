@@ -4,5 +4,8 @@
   },
   "gradle": {
     "enabled": false
+  },
+  "gradle-wrapper": {
+    "enabled": false
   }
 }
