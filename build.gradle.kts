@@ -1,6 +1,6 @@
 plugins {
     `java-library`
-    kotlin("jvm") version "1.4.31"
+    kotlin("jvm") version "1.5.10"
 }
 
 group = "com.sofi"
